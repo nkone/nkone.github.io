@@ -12,7 +12,7 @@ email: phtruong@proton.me
 # email_title: Email (Email title override)
 phone: +1 (714) 488-3147
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+location: San Jose, California
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -34,10 +34,10 @@ linkedin_username: phtruong
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -103,7 +103,7 @@ content:
         quote: >
           Coding bootcamp
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Trained in C/C++. Built basic C functions into a self-made library to use for advance C projects like printf, ls, and fdf (terrain visualizer)
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -117,7 +117,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: nkone.github.io/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 sass:
   sass_dir: _sass
