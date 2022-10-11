@@ -116,9 +116,9 @@
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
         </p>
       {%- endif -%}
-      {%- if site.location -%}
+      {%- if site.website -%}
         <p>
-          {{ site.location | default: "Location" }}: {% include a.html href=site.location %}{{ site.location | escape }}</a>
+          {{ site.website | default: "website" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
     </div>
