@@ -118,7 +118,7 @@
       {%- endif -%}
       {%- if site.website -%}
         <p>
-          {{ site.website | default: "website" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          {{ site.website_title | default: "Location" }}: {{ site.website | escape }}
         </p>
       {%- endif -%}
     </div>
